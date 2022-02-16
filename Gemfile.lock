@@ -284,7 +284,6 @@ DEPENDENCIES
   jekyll-paginate (~> 1.1)
   jekyll-sitemap (~> 1.0)
   jemoji (~> 0.8)
-  minima (~> 2.5)
   tzinfo (~> 1.2)
   tzinfo-data
   wdm (~> 0.1.1)
