@@ -1,1 +1,1 @@
-# persional weblog
+# personal weblog
