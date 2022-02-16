@@ -126,6 +126,7 @@
       border-top-left-radius: 0;
       border-top-right-radius: 0;
       & > code {
+        font-size: 1rem;
         & > .rouge-table {
           width: auto;
           margin: 0 0 #{- map-get($spacers, 3)} #{- map-get($spacers, 3)};
