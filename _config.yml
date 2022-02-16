@@ -20,9 +20,9 @@ text_skin: default # "default" (default), "dark", "forest", "ocean", "chocolate"
 highlight_theme: default # "default" (default), "tomorrow", "tomorrow-night", "tomorrow-night-eighties", "tomorrow-night-blue", "tomorrow-night-bright"
 url     : # the base hostname & protocol for your site e.g. https://www.someone.com
 baseurl : # does not include hostname
-title   : Your Site Title
+title   : RoyFu Games
 description: > # this means to ignore newlines until "Language & timezone"
-  Your Site Description
+  My personal weblog
 
 
 ## => Language and Timezone
@@ -35,7 +35,7 @@ timezone: Asia/Shanghai
 ##############################
 author:
   type      : # "person" (default), "organization"
-  name      : Your Name
+  name      : Royfu
   url       :
   avatar    : # path or url of avatar image (square)
   bio       : I am an amazing person.
