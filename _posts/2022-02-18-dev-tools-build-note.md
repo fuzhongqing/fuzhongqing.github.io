@@ -76,7 +76,7 @@ $ cp .tmux/.tmux.conf.local .
 [fzf]: https://github.com/junegunn/fzf
 [alacritty]: https://alacritty.org 
 [dotfiles]: https://github.com/fuzhongqing/dotfiles
-[hack-font]: https://sourcefoundry.org/hack
+[hack-font]: https://github.com/ryanoasis/nerd-fonts/blob/master/patched-fonts/Hack/Regular/complete/Hack%20Regular%20Nerd%20Font%20Complete.ttf?raw=true
 [install-font-on-mac]: https://support.apple.com/zh-cn/HT201749
 [neovim]: https://neovim.io
 [nvchad]: https://nvchad.github.io
