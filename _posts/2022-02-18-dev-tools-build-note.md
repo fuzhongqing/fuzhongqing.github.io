@@ -25,21 +25,7 @@ plugins=(git fzf)
 
 {% endhighlight %}
 
-##### git：
-
-提供命令的alias，例如：
-
-| Alias | Command        |
-|:------|:---------------|
-| g     | git            |
-| ga    | git add        |
-| gaa   | git add --all  |
-| gapa  | git add --patch|
-
-##### fzf:
-
-模糊搜索工具，需要安装`fzf`，参考[fzf][fzf]。
-
+`zsh` 插件的安装使用见[这里](/2022/02/25/oh-my-zsh-setup.html)
 
 ### Neovim 与 Nvchad
 
