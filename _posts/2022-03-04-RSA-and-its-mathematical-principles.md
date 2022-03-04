@@ -15,60 +15,37 @@ tags: "RSA"
 
 能够整除多个整数的最大正整数。而多个整数不能都为零。例如8和12的最大公因数为4。
 
-{% katexmm %}
-
-$gcd(8, 12)=4$
-
-{% endkatexmm %}
+$$gcd(8, 12)=4$$
 
 
 ### 互质
 
 互质（英文：Coprime，符号：⊥，又称互素）。在数论中，如果两个或两个以上的整数的最大公约数是1，则称它们为互质。
 
-
-{% katexmm %}
-
-$gcd(a, b)=1 \Leftrightarrow a \perp b$
-
-{% endkatexmm %}
+$$gcd(a, b)=1 \Leftrightarrow a \perp b$$
 
 ### 欧拉函数
 
-{% katexmm %}
-
 在数论中，对正整数n，欧拉函数 $\phi(n)$ 是小于等于n的正整数中与n互质的数的数目。
 
-例如$\phi(8) = 4$，因为1,3,5,7均和8互质。
+例如$$\phi(8) = 4$$，因为1,3,5,7均和8互质。
 
-- 如果 $p$ 是一个素数，则  $\phi(p)=p-1$ 。
-- 若$m⊥n$ ，则$\phi(mn)=\phi(m)\phi(n)$ (积性)。
-
-{% endkatexmm %}
+- 如果 $$p$$ 是一个素数，则  $$\phi(p)=p-1$$ 。
+- 若$$m \perp n$$ ，则$$\phi(mn)=\phi(m)\phi(n)$$ （积性）。
 
 ### 欧几里得算法 (辗转相除法)
 
 两个整数的最大公约数等于其中较小的数和两数余数的最大公约数。
 
-{% katexmm %}
-
-$gcd(a, b)=gcd(b,a \mod b),  a > b > 0 $
-
-{% endkatexmm %}
+$$gcd(a, b)=gcd(b,a \mod b),  a > b > 0 $$
 
 ### 扩展欧几里得算法
 
-{% katexmm %}
-
-给定二个整数$a$、$b$，必存在整数$x$、$y$使得$ax + by = gcd(a,b)$。
-
-{% endkatexmm %}
+给定二个整数$$a$$、$$b$$，必存在整数$$x$$、$$y$$使得$$ax + by = gcd(a,b)$$。
 
 ### 欧拉定理
 
-{% katexmm %}
 
-有整数$a$, $p$，且 $a \perp p$，那么 $a^{\phi(p)} \equiv 1(\mod p)$。
+有整数$$a$$, $$p$$，且 $$a \perp p$$，那么 $$a^{\phi(p)} \equiv 1(\mod p)$$。
 
-{% endkatexmm %}
 
