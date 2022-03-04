@@ -16,6 +16,7 @@ group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
   gem "jekyll-paginate", "~> 1.1"
   gem "jekyll-sitemap", "~> 1.0"
+  gem "jekyll-katex"
   gem "jemoji", "~> 0.8"
 end
 
